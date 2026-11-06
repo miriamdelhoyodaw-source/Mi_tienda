@@ -329,26 +329,20 @@ console.log (comprobarStock(10, 15));
 
 console.log("\n===== RESUMEN DE LA COMPRA =====");
 
-// TAREA 24.
-// Utiliza las variables y funciones anteriores
-// para mostrar un resumen con:
-//
-// - Nombre de la tienda.
-// - Productos disponibles.
-// - Producto seleccionado.
-// - Precio por unidad.
-// - Unidades compradas.
-// - Precio total.
-//
-// Puedes utilizar varios console.log().
+console.log("Tienda: " + nombreTienda);
+console.log("Productos disponibles:");
+console.log(productos);
 
-// Escribe tu código aquí.
-
-
+console.log("Producto seleccionado: " + nombreProducto);
+console.log("Precio: " + precio + "€");
+console.log("Unidades compradas: " + unidadesCompradas);
+console.log("Total de la compra: " + totalCompra + "€");
+console.log("Descuento aplicado: " + descuento + "€");
+console.log("Total con descuento: " + totalConDescuento + "€");
 
 // TAREA 25. RETO FINAL OPCIONAL.
 //
-// Comprueba si el cliente puede realizar la compra.
+// Comprueba si el client puede realizar la compra.
 //
 // Para ello:
 // 1. Debe haber suficientes unidades en stock.
